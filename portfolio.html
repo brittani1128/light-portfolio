@@ -9,13 +9,13 @@
     <title>Bootstrap Portfolio Site</title>
 </head>
 
-<body>
+<body class="position-relative">
   <!--navbar-->
   <nav class="navbar navbar-expand-sm navbar-light bg-light" style="height:80px">
         <div class="row h-100 mx-auto" style="width:1140px">
-            <div class="navbar-brand py-3 mr-0 pl-4 h-100 text-white col-md-4 col-xs-4 float-left" style="background:#4aaaa5">Brittani Slimp</div>
+            <div class="navbar-brand py-3 mr-0 pl-4 h-100 text-white col-md-4 col-xs-4 d-flex justify-content-center" style="background:#4aaaa5">Brittani Slimp</div>
             <div class="col-md-4 col-xs-0"></div>
-            <div class="col-md-4 pt-4" id="navbarNav" style="background:#f8f9fa">
+            <div class="col-md-4 pt-4 d-flex justify-content-center" id="navbarNav" style="background:#f8f9fa">
                 <ul class="navbar-nav" style="right:0">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">About </a>
@@ -31,7 +31,7 @@
         </div>
     </nav>
     <hr class="m-0">
-    <div class="container position-relative mt-5 col-lg-8" style="background-color:#ffffff">
+    <div class="container mt-5 mb-8 col-lg-8" style="background-color:#ffffff">
             <div class="row">  <!--Header row-->
                 <div class="col-sm-12 pl-4 pt-4"><h2>Portfolio</h2></div>
             </div>
@@ -40,23 +40,28 @@
                 <div class="col-sm-12">
                     <div class="row" id="row1">
                         <div class="col-md-6">
-                            <img class="m-3 img-fluid" src="assets/images/paris.jpg" alt="paris" style="height:300px max-width:100%">
+                            <img class="m-3 img-fluid" src="assets/images/paris.jpg" alt="paris" style="max-width:90%">
+                            <div class="label px-auto py-3 text-center position-absolute" >Travel</div>
                         </div>
                         <div class="col-md-6">
-                           <img class="m-3 img-fluid"src="assets/images/fitness.jpg" alt="yoga" style="height:300px max-width:100%">
+                           <img class="m-3 img-fluid"src="assets/images/music.jpg" alt="music" style="max-width:90%">
+                           <div class="label px-auto py-3 text-center position-absolute">Music</div>
                         </div>
                     </div>
                     <div class="row" id="row2">
                         <div class="col-md-6">
-                            <img class="m-3 img-fluid"src="assets/images/pets.jpg" alt="dog" style="height:300px max-width:100%">
+                            <img class="m-3 img-fluid"src="assets/images/outdoors1.jpg" alt="trees" style="max-width:90%">  
+                            <div class="label px-auto py-3 text-center position-absolute">Outdoors</div>
                         </div>
                         <div class="col-md-6">
-                            <img class="m-3 img-fluid"src="assets/images/outdoors1.jpg" alt="trees" style="height:300px max-width:100%">  
+                            <img class="m-3 img-fluid"src="assets/images/pets.jpg" alt="dog" style="max-width:90%">
+                            <div class="label px-auto py-3 text-center position-absolute">Pets</div>
                         </div>
                     </div>
                     <div class="row" id="row3">
                         <div class="col-md-6"> 
-                            <img class="m-3 img-fluid"src="assets/images/food.jpg" alt="donut" style="height:300px max-width:100%">
+                            <img class="m-3 img-fluid"src="assets/images/food.jpg" alt="donut" style="max-width:90%">
+                            <div class="label px-auto py-3 text-center position-absolute">Food</div>
                         </div>
                         <div class="col-sm-6"></div>  <!--empty-->
                     </div>
@@ -65,7 +70,7 @@
 
             </div>
     </div>
-    <footer class="footer pt-3" style="border-top:5px solid #4aaaa5">
+    <footer class="footer position-fixed pt-3" style="border-top:5px solid #4aaaa5">
         <div class=col-md-12>
             <h6>Copyright</h6>
         </div>
