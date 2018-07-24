@@ -1,18 +1,18 @@
-*{
+/* *{
     box-sizing:border-box;
     margin:0px;
     padding:0px;
-}
+} */
 
 body{
     background-image:url("../images/background.png");
-    position:relative;
+    height:100%;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left:10px;
-    padding-top:20px;
+    /* padding-left:10px;
+    padding-top:20px; */
     color:#4aaaa5;
     font-weight: 600;
 }
@@ -22,9 +22,9 @@ p {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background:#ffffff;
     font-size: 17px;
-    margin-top:20px;
+    /* margin-top:20px;
     margin-left:10px;
-    margin-right:10px;
+    margin-right:10px; */
     color:#777777;
 
 }
@@ -38,8 +38,8 @@ img {
 }
 
 .container {
-    /* position:relative;
-    max-width: 960px;
+    position:relative;
+    /*max-width: 960px;
     background: #ffffff;
     margin-top:50px; */
     border:1px solid #dddddd; 
@@ -47,17 +47,13 @@ img {
 
 footer {
     background:#666666;
-    /* border-top: 5px solid #4aaaa5; */
+    border-top: 5px solid #4aaaa5;
     color: #eee;
     text-align:center;
-    padding-top:20px;
-    padding-bottom: 20px;
     width:100%;
-    left:0;
+    height:60px;
     bottom:0;
-    width:100%;
-    /* margin-top:50px; */
-    position:fixed;
+    position:absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -67,7 +63,7 @@ footer {
     /* float:left; */
     /* padding:20px; */
     /* margin-top:5px; */
-    font-size:1.8em;
+    font-size:35px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
     /* height:80px;
@@ -76,33 +72,14 @@ footer {
     padding-top:20px; */
 }
 
-.nav-wrapper {
-    /* margin:auto; */
-    /* width:960px; */
-}
 
-#navbarNav {
-    /* float:right; */
+/* #navbarNav {
+    /* float:right; 
     padding-top:40px;
     height:80px;
-}
+} */
 
-.navbar-toggler-icon {
-    float:right;
-}
 
-.navbar {
-    padding:0px;
-    height:80px;
-}
 
-hr {
-    margin:0px;
-}
 
-form {
-    padding-bottom:20px;
-    padding-left:10px;
-    padding-top:20px;
-    padding-right:10px;
-}
+
