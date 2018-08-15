@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Bootstrap Portfolio Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Brittani Slimp Portfolio Site</title>
 </head>
 
 <body class="position-relative">
   <!--navbar-->
-  <nav class="navbar navbar-expand-md navbar-light bg-light" style="height:80px">
+  <!-- <nav class="navbar navbar-expand-md navbar-light bg-light" style="height:80px">
         <div class="row h-100 mx-auto" style="width:1140px">
             <div class="navbar-brand py-3 mr-0 pl-4 h-100 text-white col-md-4 col-xs-4 d-flex justify-content-center" style="background:#4aaaa5">Brittani Slimp</div>
             <div class="col-md-4 col-xs-0"></div>
@@ -32,20 +33,23 @@
                 </ul>
             </div>
         </div>
-    </nav>
-    <hr class="m-0">
-    <div class="container position-relative mt-5" style="background-color:#ffffff">
-        <div class="row">  <!--Header row-->
-            <div class="col-sm-12 pl-4 pt-4"><h2>About Me</h2></div>
-        </div>
-        <hr>
-        <div class="row"> <!--content row-->
-            <!--image has class:float-left
-                text has class:clearfix-->
-            <div class="col-sm-12">
-                <img class="float-left mt-3 mr-3 ml-2 mb-1" src="assets/images/selfie.jpg" alt="selfie" style="height:200px">
-                <div class="clearfix">
-                    <p class="mt-3 mx-2">
+    </nav> -->
+    <!-- <hr class="m-0"> -->
+    <div class="bgimg-1">
+        <!-- <div class="caption text-center">Caption</div> -->
+        <div class="mbr-arrow mbr-arrow--floating text-center">
+                <!-- <div class="mbr-section__container container">
+                    <a class="mbr-arrow__link" href="#msg-box5-1"><i class="glyphicon glyphicon-menu-down"></i></a>
+                </div> -->
+            </div>
+    </div>
+    <!-- <div class="container position-relative mt-5" style="background-color:#ffffff"> -->
+        <div class="about-me py-5 px-3">  <!--Header row-->
+            <h2 class="text-center">About Me</h2>
+            
+                <!-- <img class="float-left mt-3 mr-3 ml-2 mb-1" src="assets/images/selfie.jpg" alt="selfie" style="height:200px"> -->
+                <div class="text px-5">
+                    <p class="mt-3">
                         Hi! My name is Brittani (Britt) and I was born and raised in Austin, Texas. I went to school at UT in Austin where I studied
                         biology and played volleyball on the club team. I have a Masters in marine biology from Texas A&M in Galveston.
                         After school I studied environmental consulting, and then went into sales. While in my sales job I began
@@ -57,19 +61,68 @@
                         and challenging.
                     <br><br>
                         In my free time you can find me out and about with my pup, usually at Red Bud, Barton Springs, Zilker, or anywhere else with
-                        water. I also love to play volleyball, both sand and indoor, and regularly get in the gym to lift heavy sh*t.
+                        water. I also love to play volleyball, both sand and indoor, and regularly get in the gym to lift heavy things.
                     </p>
                 </div>
-            </div>
+           
+        </div>
+       
+        <div class="contact-info text-center py-5">
+            <h2 class="pb-3"id="contact">Contact</h2>
+            <p><a class="contact-link" href="mailto:brittani1128@gmail.com">Email</a></p>
+            <p><a class="contact-link" href="https://www.linkedin.com/in/brittani-slimp/">LinkedIn</a></p>
+            <p><a class="contact-link" href="https://github.com/brittani1128">GitHub</a></p>
         </div>
 
-    </div>
+        
+        <div class="portfolio"><h2 class="text-center py-5">Portfolio</h2>
+            <div class="album py-5">
+                <div class="container" style="border:0px;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/tailwag.jpg">
+                                <div class="card-body">
+                                    <h3 class="pb-2">TailWag</h3>
+                                    <p><a class="card-link" href="#" target="_blank">Check it out here</a></p>
+                                    <p><a class="card-link" href="https://github.com/SRidings/ProjectOne" target="_blank">Link to GitHub repo</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/got2.jpg">
+                                <div class="card-body">
+                                    <h3 class="pb-2">Game of Thrones Trivia</h3>
+                                    <p><a class="card-link" href="https://brittani1128.github.io/Trivia-Game/" target="_blank">Check it out here</a></p>
+                                    <p><a class="card-link" href="https://github.com/brittani1128/Trivia-Game" target="_blank">Link to GitHub repo</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/images/london-tube.jpg">
+                                <div class="card-body">
+                                    <h3 class="pb-2">Train Schedule</h3>
+                                    <p><a class="card-link" href="https://brittani1128.github.io/train-schedule/" target="_blank">Check it out here</a></p>
+                                    <p><a class="card-link" href="https://github.com/brittani1128/train-schedule" target="_blank">Link to GitHub repo</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+       
 
-    <footer class="footer position-fixed pt-3" style="border-top:5px solid #4aaaa5">
+
+    <!-- </div> -->
+
+    <!-- <footer class="footer position-fixed pt-3" style="border-top:5px solid #4aaaa5">
         <div class=col-md-12>
             <h6>Copyright</h6>
         </div>
-    </footer>
+    </footer> -->
 
 
 </body>

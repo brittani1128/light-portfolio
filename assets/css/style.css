@@ -1,31 +1,62 @@
-body{
-    background-image:url("../images/background.png");
+body, html{
+    /* background-image:url("../images/background.png"); */
+   
     height:100%;
+    margin:0;
+}
+
+.bgimg-1{
+    min-height:100%;
+    background-image:url("../images/ut.jpg");
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    opacity:0.7;
 }
 
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#4aaaa5;
-    font-weight: 600;
+    font-family: 18px 'Roboto', sans-serif;
+    color:black;
+    letter-spacing:5px;
+    text-transform: uppercase;
 }
 
+.text {
+    max-width:1500px;
+    margin:auto;
+}
 p {
-    line-height: 1.5;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background:#ffffff;
+    
+    font-family:14px 'Roboto', sans-serif;
     font-size: 17px;
-    color:#777777;
+    letter-spacing:2px;
+    
+}
 
+.contact-info, #contact { 
+    background:#282E34;
+    color:white;
+}
+
+.contact-link {
+    color:white;
+}
+
+.contact-link:hover {
+    color:white;
 }
 
 .container {
     position:relative;
     border:1px solid #dddddd; 
     margin-bottom: 100px;
-
 }
 
-footer {
+.card-link {
+    color:black;
+}
+
+/* footer {
     background:#666666;
     border-top: 5px solid #4aaaa5;
     color: #eee;
@@ -34,16 +65,16 @@ footer {
     height:60px;
     bottom:0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
-.navbar-brand {
+/* .navbar-brand {
     font-size:35px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
-}
+} */
 
-.label {
-    background-color:#4aaaa5;
+/* .label {
+    background-color:blue;
     color:#eee;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:20px;
@@ -52,7 +83,7 @@ footer {
     bottom:10%;
     left:31.5px;
     width:83%;
-}
+} */
 
 
 @media only screen and (max-width:767px) {
