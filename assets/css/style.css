@@ -5,13 +5,34 @@ body, html{
     margin:0;
 }
 
-.bgimg-1{
+#bgimg-1{
     min-height:100%;
     background-image:url("../images/ut.jpg");
     position:relative;
     background-position:center;
     background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
     opacity:0.7;
+}
+
+#bgimg-2, #bgimg-3{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    opacity:0.7;
+}
+
+#bgimg-2 {
+    background-image:url("../images/stone3.jpg");
+    height:500px;
+}
+
+#bgimg-3{
+    background-image:url("../images/buddha.jpg");
+    height:600px;
 }
 
 h1 {
@@ -19,8 +40,7 @@ h1 {
     color:black;
     letter-spacing:5px;
     text-transform: uppercase;
-    font-size:50px;
-    
+    font-size:50px; 
 }
 
 .caption {
@@ -29,6 +49,16 @@ h1 {
     top:20%;
     width:100%;
     text-align:center;
+}
+
+#developer {
+    position:absolute;
+    left:0;
+    top:30%;
+    width:100%;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 h2 {
@@ -63,6 +93,9 @@ p {
 
 .contact-link:hover {
     color:white;
+}
+.portfolio {
+    min-height:100%;
 }
 
 .container {
