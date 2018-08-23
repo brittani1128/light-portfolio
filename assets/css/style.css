@@ -1,19 +1,19 @@
 body, html{
     /* background-image:url("../images/background.png"); */
    
-    height:90%;
+    height:100%;
     margin:0;
 }
 
 #bgimg-1{
     min-height:100%;
-    background-image:url("../images/ut.jpg");
+    background-image:url("../images/road.jpg");
     position:relative;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    opacity:0.7;
+    opacity:1.0;
 }
 
 #bgimg-2, #bgimg-3{
@@ -22,17 +22,19 @@ body, html{
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    opacity:0.7;
+    /* opacity:0.9; */
 }
 
 #bgimg-2 {
-    background-image:url("../images/stone3.jpg");
+    background-image:url("../images/palmtrees.jpg");
     height:500px;
+    opacity:1.0;
 }
 
 #bgimg-3{
-    background-image:url("../images/buddha.jpg");
-    height:600px;
+    background-image:url("../images/coffee.jpg");
+    height:800px;
+    opacity:1.0;
 }
 
 h1 {
