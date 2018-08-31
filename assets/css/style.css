@@ -83,6 +83,19 @@ p {
     font-size:16px;
     
 }
+#profile-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile {
+    height:auto;
+    width:100%;
+    max-width:300px;
+    border-radius:50%;
+    /* margin:auto; */
+}
 
 .contact-info, #contact { 
     background:#282E34;
