@@ -4,57 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <title>Brittani Slimp Portfolio Site</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+
 </head>
 
 <body class="position-relative">
 
-<!-- WRAP IN PARALLAX DIV -->
 
-  <!--navbar-->
-  <!-- <nav class="navbar navbar-expand-md navbar-light bg-light" style="height:80px">
-        <div class="row h-100 mx-auto" style="width:1140px">
-            <div class="navbar-brand py-3 mr-0 pl-4 h-100 text-white col-md-4 col-xs-4 d-flex justify-content-center" style="background:#4aaaa5">Brittani Slimp</div>
-            <div class="col-md-4 col-xs-0"></div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse col-md-4 col-xs-12 pt-4" id="navbarNav" style="background:#f8f9fa">  
-                <ul class="navbar-nav" style="right:0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+    <div class="parallax-container">
+        <div class="parallax" id="bgimg-1" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/road.jpg">
+            <div class="caption text-center">
+                <h1>Brittani Slimp</h1>
+                <h5 id="developer">Full Stack Web Developer</h5>
             </div>
-        </div>
-    </nav> -->
-    <!-- <hr class="m-0"> -->
-    <div id="bgimg-1">
-            <!-- Photo by Paul Trienekens on Unsplash -->
-        <div class="caption text-center">
-            <span><h1>Brittani Slimp</h1></div></span>
-            <h5 id="developer">Full Stack Web Developer</h5>
-        <div class="mbr-arrow mbr-arrow--floating text-center">
-                <!-- <div class="mbr-section__container container">
-                    <a class="mbr-arrow__link" href="#msg-box5-1"><i class="glyphicon glyphicon-menu-down"></i></a>
-                </div> -->
-            </div>
+        </div> 
     </div>
-    <!-- <div class="container position-relative mt-5" style="background-color:#ffffff"> -->
-        <div class="about-me py-5 px-3" style="height:auto">  <!--Header row-->
-            <h2 class="text-center mt-4">About Me</h2>
+  
+    <div class="info"></div>
+        <div style="height:auto"> 
+            <h2 class="text-center mt-5">About Me</h2>
                 <div class="row pt-3 mb-5 mx-auto">
                     <div class="col-md-3" id="profile-div">
-                        <img class="float-center img-responsive" id="profile" src="assets/images/profile.jpg" alt="selfie">
+                        <img class="float-center img-responsive" id="profile-pic" src="assets/images/profile.jpg" alt="selfie">
                     </div>
                     <div class="col-md-9">
                         <div class="text px-4">
@@ -73,66 +50,93 @@
                                 water. I also love to play volleyball, both sand and indoor, and regularly get in the gym to lift heavy things.
                             </p>
                         </div>
-                   
                     </div>
-                </div>
-                
-                
+                </div>    
         </div>
-
-        <div id="bgimg-2"></div>
-        <!-- Photo by Peter Fogden on Unsplash -->
         <div class="contact-info text-center py-5">
             <h2 class="pb-3 mt-4"id="contact">Contact</h2>
             <p><a class="contact-link" href="https://www.linkedin.com/in/brittani-slimp/" target="_blank"><img class="mx-2" src="assets/images/linkedin.png" alt="linkedin" style="height:40px"></a>
             <a class="contact-link" href="https://github.com/brittani1128" target="_blank"><img class="mx-2" src="assets/images/github.png" alt="linkedin" style="height:40px"></a></p>
             <p class="mt-4"><a class="contact-link" href="mailto:brittani1128@gmail.com">Send Me An Email</a></p>
         </div>
+    </div>
 
-        <div id="bgimg-3"></div>
+    <div class="parallax" id="bgimg-2" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/coffee.jpg"></div>
         <!-- Photo by Nathan Dumlao on Unsplash -->
        
-        <!-- END WRAP IN PARALLAX DIV -->
 
-        <div class="portfolio"><h2 class="text-center py-5">Portfolio</h2>
-            <div class="album">
-                <div class="container" style="border:0px;">
-                    <div class="row">
+    <div class="portfolio">
+        <h2 class="text-center py-5">Portfolio</h2>
+        <div class="album">
+            <div class="container" style="border:0px;">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/images/tailwag.jpg">
+                            <div class="card-body">
+                                <h3 class="pb-2">TailWag</h3>
+                                <p><a class="card-link" href="https://brittani1128.github.io/ProjectOne/" target="_blank">Live Demo</a></p>
+                                <p><a class="card-link" href="https://github.com/brittani1128/ProjectOne" target="_blank">GitHub</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/images/got2.jpg">
+                            <div class="card-body">
+                                <h3 class="pb-2">Game of Thrones Trivia</h3>
+                                <p><a class="card-link" href="https://brittani1128.github.io/Trivia-Game/" target="_blank">Live Demo</a></p>
+                                <p><a class="card-link" href="https://github.com/brittani1128/Trivia-Game" target="_blank">GitHub</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/images/london-tube.jpg">
+                            <div class="card-body">
+                                <h3 class="pb-2">Train Schedule</h3>
+                                <p><a class="card-link" href="https://brittani1128.github.io/train-schedule/" target="_blank">Live Demo</a></p>
+                                <p><a class="card-link" href="https://github.com/brittani1128/train-schedule" target="_blank">GitHub</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
                         <div class="col-md-4">
                             <div class="card">
                                 <img class="card-img-top" src="assets/images/tailwag.jpg">
                                 <div class="card-body">
                                     <h3 class="pb-2">TailWag</h3>
                                     <p><a class="card-link" href="https://brittani1128.github.io/ProjectOne/" target="_blank">Live Demo</a></p>
-                                    <p><a class="card-link" href="https://github.com/brittani1128/ProjectOne" target="_blank">Link to GitHub repo</a></p>
+                                    <p><a class="card-link" href="https://github.com/brittani1128/ProjectOne" target="_blank">GitHub</a></p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
+                        </div> -->
+                        <!-- <div class="col-md-4">
                             <div class="card">
                                 <img class="card-img-top" src="assets/images/got2.jpg">
                                 <div class="card-body">
                                     <h3 class="pb-2">Game of Thrones Trivia</h3>
                                     <p><a class="card-link" href="https://brittani1128.github.io/Trivia-Game/" target="_blank">Live Demo</a></p>
-                                    <p><a class="card-link" href="https://github.com/brittani1128/Trivia-Game" target="_blank">Link to GitHub repo</a></p>
+                                    <p><a class="card-link" href="https://github.com/brittani1128/Trivia-Game" target="_blank">GitHub</a></p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
+                        </div> -->
+                        <!-- <div class="col-md-4">
                             <div class="card">
                                 <img class="card-img-top" src="assets/images/london-tube.jpg">
                                 <div class="card-body">
                                     <h3 class="pb-2">Train Schedule</h3>
                                     <p><a class="card-link" href="https://brittani1128.github.io/train-schedule/" target="_blank">Live Demo</a></p>
-                                    <p><a class="card-link" href="https://github.com/brittani1128/train-schedule" target="_blank">Link to GitHub repo</a></p>
+                                    <p><a class="card-link" href="https://github.com/brittani1128/train-schedule" target="_blank">GitHub</a></p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </div> -->
+                    <!-- </div> -->
             </div>
-        </div>   
-       
+        </div>
+    </div>   
+    
 
 
     <!-- </div> -->
@@ -142,6 +146,10 @@
             <h6>Copyright</h6>
         </div>
     </footer> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script> 
 
 
 </body>
