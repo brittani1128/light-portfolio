@@ -220,6 +220,40 @@ p {
         min-height:200px;
     }
 
+ }
+
+
+ @media only screen and (max-width: 450px) { 
+
+    .caption {
+        top:7%;
+    }
+
+    h1 {
+        font-size:30px;
+    }
+
+    #developer {
+        font-size:15px;
+    }
+
+    #profile-pic {
+        max-width:180px; 
+        margin-bottom:15px;
+    }
+
+    p {
+        font-size:14px;    
+    }
+
+    #bgimg-1 {
+        min-height:300px;
+    }
+
+    #bgimg-2 {
+        min-height:200px;
+    }
+
     .card-flip{
         max-width:400px;
         
@@ -239,6 +273,7 @@ p {
         font-size:14px;
     }
  }
+
 
 
 
