@@ -1,3 +1,5 @@
 # Portfolio
+Portfolio site using Materialize framework
 
-View my porfolio at https://brittani1128.github.io/Portfolio/
+View at: https://brittani1128.github.io/Portfolio/
+
