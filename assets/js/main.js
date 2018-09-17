@@ -1,12 +1,16 @@
+// document.addEventListener('DOMContentLoaded', function() {
+//     var elems = document.querySelectorAll('.parallax');
+//     var instances = M.Parallax.init(elems, options);
+//   });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+
+
 document.querySelector(".card-flip").classList.toggle("flip");
 
-/* 
- * Holder.js for demo image
- * Just for demo purpose
- */
-// Holder.addTheme('gray', {
-//   bg: '#777',
-//   fg: 'rgba(255,255,255,.75)',
-//   font: 'Helvetica',
-//   fontweight: 'normal'
-// });
+

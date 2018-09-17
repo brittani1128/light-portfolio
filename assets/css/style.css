@@ -2,18 +2,27 @@ body, html {
     height:100%;
     margin:0;
 }
+/* Parallax */
+.parallax-container {
+    min-height: 550px;
+    line-height: 0;
+    height: auto;
+  }
 
 .parallax { 
-    background: transparent;
+    /* background: transparent; */
 }
 
-#bgimg-1 {
-    min-height: 800px;
-}
-
+#bgimg-1, 
 #bgimg-2 {
-    min-height:600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    width:100%; 
 }
+
 
 h1 {
     font-family:'Raleway', sans-serif;

@@ -3,25 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <title>Brittani Slimp Portfolio Site</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700,800" rel="stylesheet">
+    
+    <!--Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
 </head>
 
-<body class="position-relative">
+<body>
 
 
-    <div class="parallax-container">
-        <div class="parallax" id="bgimg-1" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/road.jpg">
-            <div class="caption text-center">
+    <div id="index-banner" class="parallax-container">
+        
+        <div class="section no-pad-bot">
+            <div class="container">
                 <h1>
                     <span id="first">Brittani</span>
                     <span id="last">Slimp</span>
@@ -29,18 +31,22 @@
                 <h5 id="developer">Full Stack Web Developer</h5>
             </div>
         </div>
+        <div class="parallax">
+            <img id="bgimg-1" src="assets/images/road.jpg" alt="Unsplashed bgimg1">
+        </div>
     </div>
+    
 
-    <div class="info"></div>
-    <div style="height:auto">
-        <h2 class="text-center mt-5">About Me</h2>
-        <div class="row pt-3 mb-5 mx-auto">
-            <div class="col-md-12 col-lg-3" id="profile-div">
-                <img class="float-center img-responsive" id="profile-pic" src="assets/images/profile.jpg" alt="selfie">
+    <div class="container">
+      <div class="section" style="height:auto">
+        <h2 class="about-me">About Me</h2>
+        <div class="row">
+            <div class="col m12 l3" id="profile-div">
+                <img class="" id="profile-pic" src="assets/images/profile.jpg" alt="selfie">
             </div>
-            <div class="col-lg-9">
-                <div class="text px-4">
-                    <p class="mt-3">
+            <div class="col l9">
+                <div class="text">
+                    <p class="">
                         Hi! Welcome to my page. My name is Brittani (Britt) and I was born and raised in Austin, Texas. I went to school at UT in
                         Austin where I studied biology and played volleyball on the club team. I have a Masters in marine
                         biology from Texas A&M in Galveston. After school I studied environmental consulting, and then went
@@ -62,11 +68,14 @@
                 </div>
             </div>
         </div>
+      </div>
     </div>
 
+    <div class="parallax-container">
+      <div class="parallax">
+            <img id="bgimg-2" src="assets/images/coffee.jpg" alt="Unsplashed bgimg1" style="transform: translate3d(-50%, 239.591px, 0px); opacity: 1;">
+      </div>
     </div>
-
-    <div class="parallax" id="bgimg-2" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/coffee.jpg"></div>
     <!-- Photo by Nathan Dumlao on Unsplash -->
 
 
@@ -75,161 +84,127 @@
         <div class="album">
             <div class="container" style="border:0px;">
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card-flip">
-                            <div class="flip">
-                                <div class="front">
-                                    <div class="card">
-                                        <img class="card-img-top" src="assets/images/tailwag.jpg" style="height:250px">
-                                        <div class="card-body">
-                                            <h3 class="card-title pb-2 text-center">TailWag</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="back">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h3 class="card-title pb-2 text-center">TailWag</h3>
-                                            <p class="card-text">
-                                                Designed as a mobile application for dog owners to find local dog parks and gathering areas. Implements Google maps API with
-                                                a heatmap layer to show current check-in activity, and Firebase to store
-                                                park information.
-                                            </p>
-                                            <p>
-                                                <a class="card-link" href="https://brittani1128.github.io/ProjectOne/" target="_blank">Live Demo</a>
-                                            </p>
-                                            <p>
-                                                <a class="card-link" href="https://github.com/brittani1128/ProjectOne" target="_blank">GitHub</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+
+                    <div class="col m6 l4">
+                        <div class="card sticky-action">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/tailwag.jpg" style="height:250px">  
                             </div>
+                            <div class="card-content">
+                                <h3 class="card-title pb-2 text-center">TailWag</h3>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://brittani1128.github.io/ProjectOne/" target="_blank">Live Demo</a>
+                                <a href="https://github.com/brittani1128/ProjectOne" target="_blank">GitHub</a>
+                            </div> 
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">TailWag<i class="material-icons right">close</i></span>
+                                <p class="card-text">
+                                    Designed as a mobile application for dog owners to find local dog parks and gathering areas. Implements Google maps API with a heatmap layer to show current check-in activity, and Firebase to store park information.</p>
+                            </div>    
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card-flip">
-                            <div class="flip">
-                                <div class="front">
-                                    <div class="card">
-                                        <img class="card-img-top" src="assets/images/got2.jpg" style="height:250px">
-                                        <div class="card-body">
-                                            <h3 class="card-title pb-2 text-center">Game of Thrones Trivia</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="back">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h3 class="card-title pb-2 text-center">Game of Thrones Trivia</h3>
-                                            <p class="card-text">
-                                                Game of Thrones themed trivia game using JavaScript for the logic and jQuery to manipulate the HTML.
-                                            </p>
-                                            <p>
-                                                <a class="card-link" href="https://brittani1128.github.io/Trivia-Game/" target="_blank">Live Demo</a>
-                                            </p>
-                                            <p>
-                                                <a class="card-link" href="https://github.com/brittani1128/Trivia-Game" target="_blank">GitHub</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col m6 l4">
+                        <div class="card sticky-action">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/tailwag.jpg" style="height:250px">  
                             </div>
+                            <div class="card-content">
+                                <h3 class="card-title pb-2 text-center">TailWag</h3>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://brittani1128.github.io/ProjectOne/" target="_blank">Live Demo</a>
+                                <a href="https://github.com/brittani1128/ProjectOne" target="_blank">GitHub</a>
+                            </div> 
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">TailWag<i class="material-icons right">close</i></span>
+                                <p class="card-text">
+                                    Designed as a mobile application for dog owners to find local dog parks and gathering areas. Implements Google maps API with a heatmap layer to show current check-in activity, and Firebase to store park information.</p>
+                            </div>    
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card-flip">
-                            <div class="flip">
-                                <div class="front">
-                                    <div class="card">
-                                        <img class="card-img-top" src="assets/images/train.jpg" style="height:250px">
-                                        <div class="card-body">
-                                            <h3 class="card-title pb-2 text-center">Train Schedule</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="back">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h3 class="card-title pb-2 text-center">Train Schedule</h3>
-                                            <p class="card-text">
-                                                Train schedule application that incorporates Firebase to host arrival and departure data, and manipulates time information
-                                                using Moment.js
-                                            </p>
-                                            <p>
-                                                <a class="card-link" href="https://brittani1128.github.io/train-schedule/" target="_blank">Live Demo</a>
-                                            </p>
-                                            <p>
-                                                <a class="card-link" href="https://github.com/brittani1128/train-schedule" target="_blank">GitHub</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col m6 l4">
+                        <div class="card sticky-action">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/got2.jpg" style="height:250px">  
                             </div>
+                            <div class="card-content">
+                                <h3 class="card-title text-center">Game of Thrones Trivia</h3>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://brittani1128.github.io/Trivia-Game/" target="_blank">Live Demo</a>
+                                <a href="https://github.com/brittani1128/Trivia-Game" target="_blank">GitHub</a>
+                            </div> 
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Game of Thrones Trivia<i class="material-icons right">close</i></span>
+                                <p class="card-text">
+                                    Game of Thrones themed trivia game using JavaScript for the logic and jQuery to manipulate the HTML.</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col m6 l4">
+                        <div class="card sticky-action">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/friend.jpg" style="height:250px">  
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title pb-2 text-center">Furrever Friend Finder</h3>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://immense-ridge-16573.herokuapp.com/" target="_blank">Live Demo</a>
+                                <a href="https://github.com/brittani1128/friend-finder" target="_blank">GitHub</a>
+                            </div> 
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Furrever Friend Finder<i class="material-icons right">close</i></span>
+                                <p class="card-text">
+                                    A compatibility-based pet finder that simulates a real world need of finding the best pet for you to adopt based on your
+                                    lifestyle. Answer a few survey questions and you'll be matched with the pest pet currently available for adoption!</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col m6 l4">
+                        <div class="card sticky-action">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/bamazon.jpg" style="height:250px">  
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title pb-2 text-center">Bamazon</h3>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/brittani1128/bamazon" target="_blank">GitHub</a>
+                            </div> 
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Bamazon<i class="material-icons right">close</i></span>
+                                <p class="card-text">
+                                    A CLI application simulating an online storefront (totally not Amazon) using Node.js and MySQL to take order from customers,
+                                    deplete stock, and allow managers to update stock and products.</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="col m6 l4">
+                        <div class="card sticky-action">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/images/liri.jpg" style="height:250px">  
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title pb-2 text-center">LIRI Bot</h3>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/brittani1128/liri-node-app" target="_blank">GitHub</a>
+                            </div> 
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">LIRI Bot<i class="material-icons right">close</i></span>
+                                <p class="card-text">
+                                    A command line Node application that allows the user to search Spotify for songs, Bands in Town for concerts, and OMDB for
+                                    movies.</p>
+                            </div>    
                         </div>
                     </div>
 
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card-flip">
-                            <div class="flip">
-                                <div class="front">
-                                    <div class="card">
-                                        <img class="card-img-top" src="assets/images/friend.jpg" style="height:250px">
-                                        <div class="card-body">
-                                            <h3 class="card-title pb-2 text-center">Furrever Friend Finder</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="back">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h3 class="card-title pb-2 text-center">Furrever Friend Finder</h3>
-                                            <p class="card-text">
-                                                A compatibility-based pet finder that simulates a real world need of finding the best pet for you to adopt based on your
-                                                lifestyle. Answer a few survey questions and you'll be matched with the pest
-                                                pet currently available for adoption!
-                                            </p>
-                                            <p>
-                                                <a class="card-link" href="https://immense-ridge-16573.herokuapp.com/" target="_blank">Live Demo</a>
-                                            </p>
-                                            <p>
-                                                <a class="card-link" href="https://github.com/brittani1128/friend-finder" target="_blank">GitHub</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card-flip">
-                            <div class="flip">
-                                <div class="front">
-                                    <div class="card">
-                                        <img class="card-img-top" src="assets/images/bamazon.jpg" style="height:250px">
-                                        <div class="card-body">
-                                            <h3 class="card-title pb-2 text-center">Bamazon</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="back">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h3 class="card-title pb-2 text-center">Bamazon</h3>
-                                            <p class="card-text">
-                                                A CLI application simulating an online storefront (totally not Amazon) using Node.js and MySQL to take order from customers,
-                                                deplete stock, and allow managers to update stock and products.
-                                            </p>
-                                            <p>
-                                                <a class="card-link" href="https://github.com/brittani1128/bamazon" target="_blank">GitHub</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                    <!-- <div class="col-md-6 col-lg-4">
+                 
+                    
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="card-flip">
@@ -260,7 +235,7 @@
                         </div>
                     </div>
 
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -289,12 +264,15 @@
         </div>
     </footer> -->
 
-        <script>
+
+
+        <!-- JavaScript -->
+        <!-- <script>
             document.querySelector(".card-flip").classList.toggle("flip");
-        </script>
+        </script> -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="assets/js/parallax.min.js"></script>
+        <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+        <script src="assets/js/main.js"></script>
 
 
 </body>
